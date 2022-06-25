@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #53BF9D;
+    color: black;
+    height: 60px;
+    width: 100%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Slab', 'Lato';
+    font-weight: 600;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+.gameContainer {
+    background-color: #F94C66;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+}
+
+.box {
+    border: 1px solid black;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+}
+
+.box:hover {
+    background-color: #AEDBCE;
+}
+
+.gameInfo {
+    margin: 10px;
+    padding: 10px;
+}
+
+.br-0 {
+    border-right: none;
+}
+
+.bb-0 {
+    border-bottom: none;
+}
+
+button{
+    font-size: larger;
+    width: 180px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.calc{
+    background-color: #54BAB9;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
