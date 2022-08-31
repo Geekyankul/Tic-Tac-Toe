@@ -50,8 +50,13 @@ nav ul{
 }
 
 .gameInfo {
-    margin: 10px;
+    margin-top: 8rem;
     padding: 10px;
+}
+
+#reset{
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .br-0 {
@@ -73,9 +78,9 @@ a{
 }
 
 .calc{
-    background-color: #54BAB9;
+    background-color: #fff;
     margin-top: 25px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 5px;
 
 }
