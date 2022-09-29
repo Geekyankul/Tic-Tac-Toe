@@ -22,7 +22,7 @@ nav ul{
 }
 
 .gameContainer {
-    background-color: #F94C66;
+    /* background-color: #F94C66; */
     display: flex;
     justify-content: center;
     margin-top: 40px;
