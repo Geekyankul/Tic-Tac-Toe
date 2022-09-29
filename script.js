@@ -1,6 +1,4 @@
-console.log("Welcome to Tic Tac Toe")
-let audioTurn = new Audio("ting.mp3")
-let gameover = new Audio("gameover.mp3")
+console.log("Welcome to Tic Tac Toe");
 let turn = "X"
 let isgameover = false;
 
@@ -39,7 +37,6 @@ Array.from(boxes).forEach(element =>{
         if(boxtext.innerText === ''){
             boxtext.innerText = turn;
             turn = changeTurn();
-            audioTurn.play();
             checkWin();
             if (!isgameover){
                 document.getElementsByClassName("info")[0].innerText  = "Turn for " + turn;
